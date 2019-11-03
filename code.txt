@@ -1,0 +1,13 @@
+OPEN x
+OPEN max
+USE 43 WITH max
+
+*start
+TALK #x
+TALK "\n"
+PUSH x
+
+TURN OFF x max
+
+WALK TO start
+TALK "END!"
